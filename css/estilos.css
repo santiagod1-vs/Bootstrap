@@ -1,0 +1,65 @@
+body{
+    background: #75FA8D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.card-header-custom{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 15px;
+}
+
+.card-header-custom img{
+    width: 90px;
+    height: 90px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.card-header-custom h4{
+    font-size: 22px;
+    margin: 0;
+}
+
+.card-header-custom h5{
+    font-size: 18px;
+    margin: 0;
+}
+
+.card-body{
+    padding: 15px;
+}
+
+.card-body p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* Colores */
+
+.card-verde-lima-claro{
+    background: #A1FB8E;
+}
+
+.card-verde-lima{
+    background: #A1FA4F;
+}
+
+.card-verde-chartreuse{
+    background: #75F94D;
+}
+
+.card-verde-lima-chartreuse{
+    background: #75FA61;
+}
